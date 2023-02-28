@@ -1,0 +1,118 @@
+{
+  "DUMMY_DATA": [
+    {
+      "id": "p1",
+      "name": "마르크안드레 테어슈테겐",
+      "imgUrl": "https://i.namu.wiki/s/1debf0bc9b5f64c19a251530050f3b92f6e8b3ade819a231520b8069e819feccbdeccd748607d25b05c4971be2a224c7edfb4534bd43ccee71212c592c6a1e130e83e88d87a0a0cdf61480355b67fae759b8416bb754bf9f97296dd6ab50ccda",
+      "pos": "GK"
+    },
+    {
+      "id": "p2",
+      "name": "로날드 아라우호",
+      "imgUrl": "https://i.namu.wiki/s/d9ecf75b82b3bf2176c40442c3ac3253c4b035d1377ea4caa094d788ad22fab7308a88ab7fbe998a4ff240156096b058a77d32a446505d1e0768325ca68c64561e4bef6f56d6ed3914b3b76e3a5210111779612fce853ac58fb15bf9ae9598ab",
+      "pos": "DF"
+    },
+    {
+      "id": "p3",
+      "name": "세르히오 부스케츠",
+      "imgUrl": "https://i.namu.wiki/s/07da2e3e49dbe9a82e1f0e42b9ad476264ae03fb51abb1a2a3358bb394a94725ce8eb305dc229769e838dbfbf97a280a921cab8c813c8eb670912b9fa9b7c2f4a22ca78fa1c21fc8a1fea37cd6b969e69a5df6897d7b3973a59c3a1bfc3214a8",
+      "pos": "MF"
+    },
+    {
+      "id": "p4",
+      "name": "가비",
+      "imgUrl": "https://i.namu.wiki/s/d8bffbcbead937a7dc655a2461fc1ebf0671c5ad326c4fd8d0257c3c86594d3db5dfacf9e5bf5a2db28ad77ace507eb213f662bc7e4d320a032e4fb1aaae33a749ad12e1b5b2969f8a2f0bec5e71fa1f1dbe099b5d4bac21388e1eb31595efb8",
+      "pos": "MF"
+    },
+    {
+      "id": "p5",
+      "name": "우스만 뎀벨레",
+      "imgUrl": "https://i.namu.wiki/s/286cc7ca7f0e504e3191a3104b816b230060eab684a770a733eb5398af36e6a1ea6bdcd3c94a1e403dc7d5b8ec6aae516c666431e63f92ae4d231f3fcd205fa00f39f6b2b736d25bf23291e87d06dfd152b98bc335f12b8e09b0d3268d8f28e7",
+      "pos": "FW"
+    },
+    {
+      "id": "p7",
+      "name": "페드리",
+      "imgUrl": "https://i.namu.wiki/s/4aa162cbd42e9c91d41e5cdcae84a26966c18a7932251b3a014da708b0b3f7fc37cf206194d4220c764b6f2557e86f360b16b969310ae47b7369fedcfd85e73ce3333c2c851fd1113ddc7e22692e46d44b8ad9f38e652102893afb13bacdca5d",
+      "pos": "MF"
+    },
+    {
+      "id": "p8",
+      "name": "로베르트 레반도프스키",
+      "imgUrl": "https://i.namu.wiki/s/1f8c4796caac6ff079c812c252a75b232b2c4027df870cfd4f864ee89ab68be1acbb6d17000b21f26b734da6bcea9f59cdb180b9cf0a25ec5544ea24a76412f8925fc36951d054b5140df5e097133c35fccb8ec488e1ea337f138e079b908ff3",
+      "pos": "FW"
+    },
+    {
+      "id": "p9",
+      "name": "안수 파티",
+      "imgUrl": "https://i.namu.wiki/s/52f3be110a994784c392d42f8aedee59bd5dc7b1a5aab2a5ae8186d177cda900bf29c2a51b0068072841598aef4b0a78cdde9cea8f9adde4499b2a47dd4fcf639e4b0054f4f53d08c31c81334454e4358bc3f706ca08915ca93feb99863d0032",
+      "pos": "FW"
+    },
+    {
+      "id": "p10",
+      "name": "페란 토레스",
+      "imgUrl": "https://i.namu.wiki/s/39dd52beba6f4e3d2634611226d50717fa4c6ce5ad62b4e9c335574912c26498fbbd1b7ea67f377407405dda7c8f35e6e1e5eac5df5526265bad6e826578e4cdb539c1cd72e77946677750995f3ad8a81537d410f232621332c84373364a0ea5",
+      "pos": "FW"
+    },
+    {
+      "id": "p11",
+      "name": "이냐키 페냐",
+      "imgUrl": "https://i.namu.wiki/s/4e7afd516bf25ee440745c33de6e1801e8fd53c9b27ba04e9e6b5a430c42469551f4455dcdc6b831d8041dc1257f215bcd7c5fbdb1d7aa8d596da1e01dcb287af7cf13f43e50b91dbe2b32f3d00053be574d6b07d517ab4ce1a50cdcee71bb0f",
+      "pos": "GK"
+    },
+    {
+      "id": "p12",
+      "name": "안드레아스 크리스텐센",
+      "imgUrl": "https://i.namu.wiki/s/27ae94ad77ee1e3ff18cef31f5c7a9b3dd10518cbbe34742dbaf031ac4ebf9b70fb46043fe2640d7f9d036fc7b5a7f95d0ed2dbdae85acfda16594b3a9a218d8216ea6f6c2d305af8e3ae253f48a62e0cc529ffa0d4ff2ee8cc70083c32faa92",
+      "pos": "DF"
+    },
+    {
+      "id": "p13",
+      "name": "마르코스 알론소",
+      "imgUrl": "https://i.namu.wiki/s/541204a9cd87e498166f2baaf458436854979e2db15ea00dffa2c63d67558922b23a485869e4b2ea64f7a1b024f5e2beb05cb7bccdf37e393ed70221ddbf3632c6d624c971e631a1c51229a18ed8b55060924b0b0974fe5a5a599995f8aecdf6",
+      "pos": "DF"
+    },
+    {
+      "id": "p14",
+      "name": "조르디 알바",
+      "imgUrl": "https://i.namu.wiki/s/cb3e49097ff2798bc339b2c73867ae8d2e76d78944dd7300b229db379583eb0994f31c9685e28288df3cb8bf9adf9c4ba181d459ee96305dfaa82d2a557a0ac54fec99f1c0f75347153de471aece46ecd5ac8c9867800b0afcd50132418e3061",
+      "pos": "DF"
+    },
+    {
+      "id": "p15",
+      "name": "프랑크 케시에",
+      "imgUrl": "https://i.namu.wiki/s/bfc840393233d1495a70dccabd709f6f09c60002fcb0e0b858529d5e519284650bd58b8aa2096b8abc2a66fee0c04a593cf24024c38df02c991462b83ac80205e77704520a61576368f5a4632eb8dc05cc6cfd560285bc602f6778a3c3d1bc33",
+      "pos": "MF"
+    },
+    {
+      "id": "p16",
+      "name": "세르지 로베르토",
+      "imgUrl": "https://i.namu.wiki/s/91589e0de7f9be38dd75939263c5487bf0c9be3c364c94064100670f8f4d6e8a7fb215d60dd497e70ee07950a24d96055efcc148d6255ff501046a61a6e33be6bef76dec834b1114fe1295b0e5daa065681881cce5b75dc5b55073e724f2fe01",
+      "pos": "MF"
+    },
+    {
+      "id": "p17",
+      "name": "프렝키 더용",
+      "imgUrl": "https://i.namu.wiki/s/324f2b47d30d46346ac7d4c1fd0d719b1e7dbe6513e7168c37c1ace54f3370a050e72e3ba56b373238fa817838127dec0873b47cd87218d3f79e3e80545971902f159caf72e69d9b44f2ea56ad91ba7b1beb1c96a3eece82bbe474b4046b89fd",
+      "pos": "MF"
+    },
+    {
+      "id": "p18",
+      "name": "하피냐",
+      "imgUrl": "https://i.namu.wiki/s/980f079170a40bc8096dd579240360c000eb32827c98f22d6f6b8d04eb933c1614ef5c317dd911c2918b995e174efe0bc80ee60b000bbe03fc92223c4dcd9a24215b41446c6ad1efaa2031075c39f1bda448eda6cd07ca31a0c457895ebba2ac",
+      "pos": "FW"
+    },
+    {
+      "id": "p19",
+      "name": "쥘 쿤데",
+      "imgUrl": "https://i.namu.wiki/s/b26098103c62d160082fc86bfc7ebf0b51287b69a3b4171ed2a0ce58476a47830bb0a6ad89a6ca81907abf696d6fff7785b7954874e1c05d0e855676b3ebc51a829c3eae8a025705ed5883a58daaeaf7dc75ecd9b4c539d49c6fd9f285a47442",
+      "pos": "DF"
+    },
+    {
+      "id": "p20",
+      "name": "에릭 가르시아",
+      "imgUrl": "https://i.namu.wiki/s/cd346ff37071d359b88d8c1b14df68c39e6e4a5466e70a7b58c5d695fc8c2abde57d530eb83e87048b6bd64e006a734f430d279c72d19802a2af9585a4981d57cb82a0f44375b19b1081501ccaa0ff616e06f2050d00807c2cc083b5a27fb8e9",
+      "pos": "DF"
+    }
+  ]
+}

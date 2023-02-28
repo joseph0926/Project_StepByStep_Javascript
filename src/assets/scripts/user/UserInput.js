@@ -1,19 +1,10 @@
 const userInputs = document.querySelectorAll("input");
-const addPlayerForm = document.querySelector("form");
 
 const faPlayers = [];
 
 const renderFaPlayer = () => {
   const faPlayerList = document.querySelector(".fa");
 
-  // const { id, name, imgUrl, desc } = userInput;
-
-  /* if (faPlayers.length === 0) {
-    faPlayerList.classList.remove("visible");
-  } else {
-    faPlayerList.classList.add("visible");
-  }
- */
   faPlayerList.innerHTML = "";
 
   for (const fa of faPlayers) {
@@ -36,7 +27,7 @@ const renderFaPlayer = () => {
   }
 };
 
-const addPlayerHandler = (event) => {
+export const addPlayerHandler = (event) => {
   event.preventDefault();
 
   const enteredName = userInputs[0].value;
@@ -59,5 +50,3 @@ const addPlayerHandler = (event) => {
   renderFaPlayer();
   console.log(faPlayers);
 };
-
-addPlayerForm.addEventListener("submit", addPlayerHandler);
