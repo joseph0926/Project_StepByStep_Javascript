@@ -1,38 +1,44 @@
-const url = "../../../DUMMY_API.json";
+import { fetchDummyData } from "../fetch/DataFetch.js";
+import { connectDrag } from "../UI/DragDrop.js";
 
 let DUMMY_DATA = [];
 
-export const renderCurrPlayer = async () => {
+export const renderCurrPlayer = () => {
   const currPlayerList = document.querySelector(".cu");
 
   currPlayerList.innerHTML = "";
 
-  try {
-    const response = await fetch(url);
-    const data = await response.json();
-    DUMMY_DATA.push(data.DUMMY_DATA);
-  } catch (error) {
-    console.log(error);
-  }
-
-  for (const data of DUMMY_DATA) {
-    for (const cu of data) {
-      const currPlayerEl = document.createElement("li");
-      currPlayerEl.className = "player";
-      currPlayerEl.innerHTML = `
-      <div>
-        <h2>${cu.name}</h2>
-        <h3>price: <span>0억</span></h3>
-        <button class="alt">More Info</button>
-        <button>방출</button>
-      </div>
-      <div class="img">
-        <img
-         src=${cu.imgUrl}
-      />
-      </div>
-      `;
-      currPlayerList.append(currPlayerEl);
-    }
-  }
+  fetchDummyData()
+    .then((dummyData) => {
+      DUMMY_DATA.push(dummyData);
+      for (const data of DUMMY_DATA) {
+        for (const cu of data) {
+          const currPlayerEl = document.createElement("li");
+          currPlayerEl.draggable = "true"; // 추가
+          currPlayerEl.className = `player ${cu.id}`; // 추가
+          currPlayerEl.innerHTML = `
+          <div class="card">
+          <div>
+            <h2>${cu.name}</h2>
+            <h3>price: <span>0억</span></h3>
+            <button class="alt">More Info</button>
+            <button>방출</button>
+          </div>
+          <div>
+            <div class="img">
+              <img
+               src=${cu.imgUrl}
+            />
+            </div>
+          </div>
+          </div>
+          `;
+          currPlayerList.append(currPlayerEl);
+          connectDrag(cu.id);
+        }
+      }
+    })
+    .catch((err) => {
+      console.log(err);
+    });
 };

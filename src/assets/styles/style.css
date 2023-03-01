@@ -227,3 +227,13 @@ button:active {
 form > button {
   margin-top: 2rem;
 }
+
+.droppable {
+  background: #ffe0ec;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

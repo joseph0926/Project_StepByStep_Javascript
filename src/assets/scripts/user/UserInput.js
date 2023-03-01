@@ -1,3 +1,5 @@
+import { connectDrag } from "../UI/DragDrop.js";
+
 const userInputs = document.querySelectorAll("input");
 
 const faPlayers = [];
@@ -9,21 +11,27 @@ const renderFaPlayer = () => {
 
   for (const fa of faPlayers) {
     const faPlayerEl = document.createElement("li");
-    faPlayerEl.className = "player";
+    faPlayerEl.draggable = "true"; // 추가
+    faPlayerEl.className = `player ${fa.id}`;
     faPlayerEl.innerHTML = `
+                <div class="card">
                   <div>
                     <h2>${fa.name}</h2>
                     <h3>price: <span>0억</span></h3>
                     <button class="alt">More Info</button>
                     <button>영입</button>
                   </div>
+                  <div>
                   <div class="img">
                     <img
                       src=${fa.imgUrl}
                     />
                   </div>
+                  </div>
+                </div>
     `;
     faPlayerList.append(faPlayerEl);
+    connectDrag(fa.id);
   }
 };
 
@@ -40,7 +48,7 @@ export const addPlayerHandler = (event) => {
   }
 
   const newPlayer = {
-    id: Math.random().toString(),
+    id: `fa${Math.floor(Math.random().toFixed(1) * 100)}`,
     name: enteredName,
     imgUrl: enteredImgUrl,
     desc: enteredDesc,
@@ -48,5 +56,4 @@ export const addPlayerHandler = (event) => {
 
   faPlayers.push(newPlayer);
   renderFaPlayer();
-  console.log(faPlayers);
 };
