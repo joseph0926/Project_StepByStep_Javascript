@@ -1,7 +1,9 @@
+import API_KEY from "../../../api-key";
+
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
 
-const url = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA94ZjFnPHoqLibGe9QsVRAZeigIzD3FxA";
+const url = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${API_KEY}`;
 
 let email;
 let password;
