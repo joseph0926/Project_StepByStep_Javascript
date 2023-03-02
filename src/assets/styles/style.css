@@ -237,3 +237,127 @@ form > button {
   display: flex;
   justify-content: space-between;
 }
+
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 10;
+  pointer-events: none;
+  display: none;
+}
+
+.backdrop.visible {
+  display: block;
+  pointer-events: all;
+}
+
+.modal {
+  position: fixed;
+  padding: 1rem;
+  top: 25vh;
+  left: 10%;
+  width: 80%;
+  background: white;
+  z-index: 20;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  display: none;
+}
+.modal.visible {
+  display: block;
+  animation: fade-slide-in 0.3s ease-out forwards;
+}
+
+.modal__content {
+  padding: 1rem;
+  min-height: 10rem;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #00329e;
+  background: #00329e;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+.btn:hover,
+.btn:active {
+  background: #f67722;
+  border-color: #f67722;
+}
+
+.btn--passive {
+  color: #00329e;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.btn--passive:hover,
+.btn--passive:active {
+  background: #aec6f8;
+}
+
+.btn--danger {
+  background: #d30808;
+  color: white;
+  border-color: #d30808;
+}
+
+.btn--danger:hover,
+.btn--danger:active {
+  background: #ff3217;
+  border-color: #ff3217;
+}
+
+.modal__content > label {
+  font-weight: bold;
+  margin: 0.5rem 0;
+  color: #464646;
+}
+
+.modal__content > input {
+  font: inherit;
+  border: 1px solid #ccc;
+  padding: 0.4rem 0.2rem;
+  color: #383838;
+}
+
+.modal__content > input:focus {
+  outline: none;
+  background: #fff1c4;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #36007c;
+  border-color: #36007c transparent #36007c transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

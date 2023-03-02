@@ -10,6 +10,19 @@
   </head>
   <body>
     <div id="page" class="page">
+      <div class="backdrop"></div>
+      <div class="modal">
+        <form class="modal__content">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </form>
+        <div class="modal__actions">
+          <button class="btn btn--passive">Cancel</button>
+          <button class="btn btn--success">Add</button>
+        </div>
+      </div>
       <header>
         <div class="h__container">
           <div class="logo">
@@ -18,7 +31,7 @@
           <div class="link-container">
             <ul class="link-list">
               <li><a href="#">MyPage</a></li>
-              <li><a href="#">Login</a></li>
+              <li><a href="#" class="auth">Login</a></li>
             </ul>
           </div>
         </div>
@@ -32,7 +45,7 @@
               <h3>Curren Squad</h3>
             </div>
             <ul class="player-list cu">
-              <p>로딩중...</p>
+              <!-- <p>로딩중...</p> -->
             </ul>
           </section>
           <section class="fa-player">
@@ -40,9 +53,7 @@
               <h3>FA Player</h3>
             </div>
             <ul class="player-list fa">
-              <li class="player load">
-                <h1>선수를 추가해보세요!</h1>
-              </li>
+              <h1>선수를 추가해보세요!</h1>
             </ul>
           </section>
         </div>

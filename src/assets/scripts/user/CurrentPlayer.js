@@ -6,8 +6,6 @@ let DUMMY_DATA = [];
 export const renderCurrPlayer = () => {
   const currPlayerList = document.querySelector(".cu");
 
-  currPlayerList.innerHTML = "";
-
   fetchDummyData()
     .then((dummyData) => {
       DUMMY_DATA.push(dummyData);

@@ -7,8 +7,6 @@ const faPlayers = [];
 const renderFaPlayer = () => {
   const faPlayerList = document.querySelector(".fa");
 
-  faPlayerList.innerHTML = "";
-
   for (const fa of faPlayers) {
     const faPlayerEl = document.createElement("li");
     faPlayerEl.draggable = "true"; // 추가
