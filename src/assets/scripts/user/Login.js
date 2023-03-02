@@ -1,4 +1,4 @@
-import API_KEY from "../../../api-key";
+import API_KEY from "../../../../api-key";
 
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
