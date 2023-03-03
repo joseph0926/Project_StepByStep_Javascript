@@ -41,7 +41,7 @@ export const addPlayerHandler = (event) => {
   const enteredDesc = userInputs[2].value;
 
   if (enteredName.trim() === "" || enteredImgUrl.trim() === "" || enteredDesc.trim() === "") {
-    alert("유효하지 않은 입력값입니다.");
+    // alert("유효하지 않은 입력값입니다.");
     return;
   }
 

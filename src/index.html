@@ -17,21 +17,24 @@
           <input type="email" name="email" id="email" />
           <label for="password">Password</label>
           <input type="password" name="password" id="password" />
+          <div class="modal__actions">
+            <button type="button" class="btn btn--passive">Cancel</button>
+            <button type="submit" class="btn btn--success">Login</button>
+          </div>
         </form>
-        <div class="modal__actions">
-          <button class="btn btn--passive">Cancel</button>
-          <button class="btn btn--success">Add</button>
-        </div>
       </div>
       <header>
         <div class="h__container">
           <div class="logo">
-            <h1><a href="/">Logo</a></h1>
+            <h1><a href="index.html">Logo</a></h1>
           </div>
           <div class="link-container">
-            <ul class="link-list">
+            <ul class="link-list login">
               <li><a href="#">MyPage</a></li>
-              <li><a href="#" class="auth">Login</a></li>
+              <li><a href="#" class="out">Logout</a></li>
+            </ul>
+            <ul class="link-list logout">
+              <li><a href="#" class="in">Login</a></li>
             </ul>
           </div>
         </div>

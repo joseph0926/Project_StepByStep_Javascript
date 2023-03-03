@@ -353,6 +353,20 @@ form > button {
   border-color: #36007c transparent #36007c transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
+
+.login {
+  display: none;
+}
+.login.active {
+  display: block;
+}
+.logout {
+  display: block;
+}
+.logout.active {
+  display: none;
+}
+
 @keyframes lds-dual-ring {
   0% {
     transform: rotate(0deg);
